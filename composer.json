@@ -1,0 +1,21 @@
+{
+    "name": "reggiebeatz71/resource-controller",
+    "type": "library",
+    "license": "MIT",
+    "description":"",
+    "authors": [
+        {
+            "name": "Addo Reginald",
+            "email": "reggiebeatz71@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Reggiebeatz71\\ResourceController\\": "src/"
+        }
+    },
+
+    "minimum-stability": "dev",
+    "require": {}
+}
