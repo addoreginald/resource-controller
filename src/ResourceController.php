@@ -48,7 +48,7 @@ abstract class ResourceController extends Controller
                 return $this->model()->all();
 
             // Just two query parameters
-            case 1 :
+            case 1 || 2 :
                 /**
                  * Either the query is a limit or its not a limit parameter
                  */
